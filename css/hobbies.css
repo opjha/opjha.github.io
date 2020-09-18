@@ -1,0 +1,220 @@
+.body{
+  background: #D8E5E5;
+  padding: 15px;
+}
+.for_upper_decoration{
+  background-image: url("upperhobbies.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+nav{
+  height: 50px;
+  background:#006666;
+  padding:0 5px 0 5px;
+  margin: 5px 0 5px 0;
+}
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px;
+  margin: 7px 5px 8px 6px;
+  border-radius:3px;
+  font-size: 20px;
+  color:#ffcc00;
+
+}
+nav a:hover{
+  background: #000000;
+  opacity: 0.9;
+}
+nav a.active{
+  background: #ffffff;
+  color: #000000;
+}
+#hobbies_favourite{
+     display: block;
+     text-align: center;
+     clear: both;
+     font-size: 25px; 
+     background-image: url("hobnfav.jpg");
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     height: auto;
+     padding: 22px;
+     text-align: center;
+     text-decoration: none;
+     color: #ffffff;
+}
+#favourite h2, #hobbies h2{
+  text-align: center;
+  font-size: 30px;
+  color: #223456;
+}
+#hobbies, #favourite
+  {
+  display: inline-block;
+  background: #FFFFFF;
+  border-radius: 6px;
+  width:500px;
+  height: 370px;
+  float: left;
+  margin:20px;
+  padding: 20px;
+  box-shadow: 0 14px 14px 0 #808080;
+
+}
+#hobbies li{
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  margin-left: 30px;
+}
+table{
+  margin-left: 7%;
+  margin-top: 2%; 
+  width: 70%;
+  height: auto;
+  background: #33667f;
+  border-radius:10px;
+}
+th{
+  background-color: #33667f;
+  margin:2px;
+  padding:5px 10px 5px 10px;
+  border:2px solid #000000;
+  text-align:center;
+  font-size: 110%;
+  font-family: sans-serif; 
+  color: #333333;
+}
+th:first-child{
+    text-align: initial;
+    border-top-left-radius: 10px;
+}
+th:last-child{
+  border-top-right-radius: 10px;
+}
+tr:last-child>td:first-child{
+  border-bottom-left-radius: 10px;
+}
+tr:last-child>td:last-child{
+  border-bottom-right-radius: 10px;
+}
+td{
+  background-color: #cccccc;
+  text-align:center;
+  font-family: arial,courier;
+  color: #0000a0;
+  font-size:105%;
+  padding:3.5px;
+}
+tr{
+  opacity: 0.65;
+}
+tr:hover{
+  opacity: 1;
+}
+td:first-child{
+  text-align: initial;
+}
+
+div.button_style{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  clear: both;
+}
+button{
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:#ffffff;
+  border:none;
+  cursor: pointer;
+  background-color: #ff3333;
+  display: block;
+  padding: 15px 25px;
+  margin-top: 30px;
+  margin-bottom: 30px; 
+  font-size: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 9px 0px #0080ff;
+  margin: 0 auto;
+}
+button a
+{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 22px;
+}
+button:hover {
+  background-color: #ff9999;
+}
+button:active {
+        background-color: #ff9999;
+        box-shadow: 0 2px 4px 0 #0040ff;
+        transform: translateY(4px); 
+}
+section.footer{
+	background: #2f4f4f;
+    padding:5px 10px 2px 10px;
+    clear: both;
+}
+#main_contact{
+	font-size: 20px;
+	color: #ffcc00;
+	font-family: Arial;
+	line-height: 15px;
+}
+footer h5{
+	font-family: arial;
+	color: #ffffff;
+	line-height: 25px;
+
+}
+.fa {
+  padding: 20px;
+  margin: 8px 10px 8px 12px;
+  font-size: 30px;
+  width: 21px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  padding: 20px;
+  font-size: 30px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+#copy{
+	text-align: center;
+	font-family: sans-serif; 
+	font-size:15px;
+	line-height: 18px;
+	color: #ffffff;
+}
+
